@@ -7,13 +7,108 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 <body class="h-full w-full flex justify-center items-center">
-<<<<<<< HEAD
-   
-IKKE SNOKE!
-=======
 
-  IKKE SNOKE!
->>>>>>> 593b7ac (Ikke snoke!)
+   
+<!-- <div class="h-full w-full flex justify-center items-center"> -->
+
+    <!-- - Width, Height, Color, Backgroundcolor -->
+    <!-- - Make a div with a width of 32 and a height of 16, it should contain dark blue, underlined text and have a bcakgroundcolor of orange -->
+
+    <!-- <div class="w-32 h-16 bg-orange-500 text-center">
+        <p class="text-blue-900 underline">Hello!</p>
+    </div> -->
+
+
+    <!-- - Margin, padding, borders, text, states, transistions -->
+    <!-- - Make a button with a horizontal padding of 4, 
+        vertical padding of two and a margin of 4.
+         The border should be 2, a bordercolor of red, a backgroundcolor 
+         of white and a textcolor of red. 
+         On hover the backgroundcolor should change to red 
+         and the textcolor to white. The change should happen smoothly -->
+
+    <!-- <button class="bg-white text-red-500 border-2 border-red-500 m-4 px-4 py-2 rounded hover:bg-red-500 hover:text-white transition-all">Klikk!</button> -->
+
+
+    <!-- - Flexbox -->
+    <!-- - Make a div with a height of 64 and a width of 64 and a backround of light gray. 
+       -  It should contain three divs with a height and width of 12 and a margin of 2. 
+        - The first div should have a backgroundcolor of fuchsia, 
+          the second a backgroundcolor of teal and the third a backgroundcolor of orange. 
+        - The divs should be centered vertically in the parent div when the screen 
+          size is less than 768px (size medium) and horizontally when the 
+           screen size is larger than 768px.
+        - The three children should be centered
+          in the parent div
+    -->
+    <!-- <div class="w-64 h-64 bg-gray-200 flex items-center justify-center flex-col md:flex-row">
+        <div class="w-12 h-12 m-2 bg-fuchsia-500"></div>
+        <div class="w-12 h-12 m-2 bg-teal-500"></div>
+        <div class="w-12 h-12 m-2 bg-orange-500"></div>
+    </div> -->
+
+
+
+
+  <!-- - Divide the screen into four equal parts, each with a different background color.
+  - Use flex to make tha pattern 2 by 2 on screens larger than 768px (medium size)
+    and stack on top of eachoter on smaller screens.
+  - Use custom set values for width and height, and make sure it covers the whole 
+    screen without overflowing the current window
+-->
+
+    <!-- <div class="h-full w-full flex flex-wrap">
+        <div class="md:h-[50%] md:w-[50%] w-full h-[25%] bg-slate-200"></div>
+        <div class="md:h-[50%] md:w-[50%] w-full h-[25%] bg-slate-300"></div>
+        <div class="md:h-[50%] md:w-[50%] w-full h-[25%] bg-slate-400"></div>
+        <div class="md:h-[50%] md:w-[50%] w-full h-[25%] bg-slate-500"></div>
+    </div> -->
+
+
+    <!-- - Make a product card. 
+        - It should contain an image with a width of 64. 
+        - The image should be of a beer. 
+        - The card should also contain a title, a price, a description and a button. 
+        - The title should be "Øl", the price should be "0.00 kr", 
+          the description should be "En styrkedrikk for hele familien! Full av viktige næringsstoffer for barn i vekst og aktive voksne!" 
+          and the button should say "Bestill øl". 
+        - The title and the price should be centered horizontally and 
+          the description should be centered vertically. 
+        - The button should be centered horizontally and should have a border of 2, 
+          a bordercolor of teal, a backgroundcolor of teal and a textcolor of teal. 
+        - On hover the bordercolor should change to a lighter teal, the backgroundcolor
+          to a lighter teal and the textcolor to orange. 
+        - The change should happen smoothly.
+        - On screens larger than 768px (medium size) the image and the text should be 
+          next to eachother, and on smaller screens the image and the text should be 
+          stacked on top of eachother.
+    -->
+
+    
+    <div class="flex flex-col md:flex-row border-2 border-teal-700 rounded-xl">
+      <div class="w-64  p-4 rounded-xl"><img src="./øl.jpeg" alt="" srcset=""></div>
+      <div class="w-64 p-4 flex flex-col justify-between">
+          <div class="flex justify-between w-full font-bold text-2xl text-orange-900">
+              <h1>Øl</h1>
+              <h1>0.00 kr</h1>
+          </div>
+          <div class="flex flex-col h-full mt-4 justify-between text-teal-900">
+              <p>En styrkedrikk for hele familien! Full av viktige næringsstoffer for barn i vekst og aktive voksne!</p>
+              <button class="w-full bottom-0 px-2 border-2 border-teal-700 bg-teal-300 hover:border-teal-500 hover:bg-teal-200 hover:font-bold transition-all text-teal-900 hover:text-orange-900">Bestill øl</button>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+<!-- Check contestants code: -->
+<!-- <div class="flex flex-col h-full gap-4">
+
+</div> -->
+
+<!-- </div> -->
     
 </body>
 </html>
