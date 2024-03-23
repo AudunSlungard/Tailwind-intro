@@ -1,0 +1,1 @@
+This project is an introduction to Tailwind CSS, made for fellow students during my bachelor thesis. It was presented in an online session and contains a set of tasks aiming to help get you up to scratch with Tailwind fast. It requires preexisting knowledge in CSS, including flexbox.
